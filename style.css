@@ -14,11 +14,10 @@ header { position: fixed; top: 0; left: 0; right: 0; padding: 1.2rem 0; backgrou
 .logo span { color: var(--accent); }
 nav a { margin-left: 1.5rem; color: var(--text); text-decoration: none; transition: color .3s; }
 nav a:hover { color: var(--accent); }
-.hero { height: 100vh; background: url('hero.jpg') center/cover no-repeat; position: relative; display: flex; align-items: center; justify-content: center; text-align: center; }
+.hero { height: 100vh; background: url('https://source.unsplash.com/1600x900/?dark,tech') center/cover no-repeat; position: relative; display: flex; align-items: center; justify-content: center; text-align: center; }
 .hero::after { content: ''; position: absolute; inset: 0; background: rgba(0,0,0,.55); }
 .hero-inner { z-index: 2; }
 .hero h1 { font-size: 3.5rem; margin-bottom: .5rem; }
-.hero p { font-size: 1.25rem; margin-bottom: 2rem; }
 .btn { background: var(--accent); color: var(--bg); padding: .9rem 2.2rem; border: none; font-size: 1rem; cursor: pointer; text-decoration: none; transition: transform .3s; }
 .btn:hover { transform: scale(1.05); }
 .work, .about { padding: 6rem 0; }
